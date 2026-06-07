@@ -1,0 +1,10 @@
+states = {"west bengal": "kolkata",
+           "maharashtra": "mumbai",
+           "rajasthan": "jaipur",
+           "kerala":"thiruvanthampuram",
+           "assam":"guwahati"}
+states["gujarat"] = "gandhinagar"
+for state, capital in states.items():
+    print(state + "-> "+ capital )
+print("kolkata" in states.values())
+print(len(states))

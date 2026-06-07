@@ -1,0 +1,24 @@
+#Just for first step
+#Name = "Jeet"
+#age = "21"
+#print(Name)
+#print(age)
+
+#Tring the basics of conditional stetments
+#age = 21
+#if age >= 18:
+ #   print("adult")
+#else: 
+ #   print("minor")
+
+#Day 1 according claude
+#below code has list of cities with it's coordinates
+#cities = [{"name": "Nairobi","lat": -1.286, "long": 36.817},{"name": "Cairo", "lat": 30.033,"long": 31.233},{"name": "Lagos", "lat": 6.524, "long": 3.379}]
+#for city in cities:
+#    print (city["name"] + " is at (" + str(city["lat"])+ "," +str(city["long"])+")") 
+
+
+#below one is for one city
+#city = {"name": "Nairobi", "lat": -1.286, "long": 36.817}
+#print(city["name" ])
+

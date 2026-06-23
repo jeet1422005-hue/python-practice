@@ -1,0 +1,6 @@
+station,district,elevation_m,avg_rainfall_mm,avg_temp_c,climate_type
+Darjeeling,Darjeeling,2042,3092,12.5,Cool and Wet
+siliguri,Jalpaiguri,122,2800,26.3,Cool and Wet
+Kolkata,Kolkata,9,1585,26.8,Cool and Wet
+Asansol,Paschim Bardhaman,103,1200,27.5,Cool and Wet
+Sagar Island,South 24 Parganas,4,1750,26.1,Cool and Wet

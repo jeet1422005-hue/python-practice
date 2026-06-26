@@ -20,4 +20,4 @@ kolkata = stations_utm.geometry.iloc[2]
 distance_meters = darjeeling.distance(kolkata)
 distance_km = distance_meters / 1000
 
-print(f"\nDistance Darjeeling to Kolkata: {distance_km:.2f} km")
+print(f"\nDistance Darjeeling to Kolkata: {distance_km:.2f}

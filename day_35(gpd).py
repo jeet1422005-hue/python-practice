@@ -17,3 +17,8 @@ gpd.GeoSeries([district_a]).plot(ax=ax, color='blue', alpha=0.4)
 gpd.GeoSeries([district_b]).plot(ax=ax, color='red', alpha=0.4)
 gpd.GeoSeries([overlap]).plot(ax=ax, color='purple', alpha=0.8)
 plt.show()
+
+only_a = district_a.difference(district_b)
+only_b = district_b.difference(district_a)
+print("Only A Area:", only_a.area)
+print("Only B Area:", only_b.area)

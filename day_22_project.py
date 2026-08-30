@@ -10,4 +10,5 @@ def assess_risk(row):
      else:
         return "Low Risk"
 df["drought_risk"] = df.apply(assess_risk, axis=1)   
-print(df)        
+print(df)
+df.to_csv("day_22_output.csv", index=False)        
